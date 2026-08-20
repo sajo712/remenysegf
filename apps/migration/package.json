@@ -1,0 +1,22 @@
+{
+  "name": "migration",
+  "version": "1.0.0",
+  "description": "docx to Sanity migration utility for Reménység foglyai",
+  "private": true,
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@sanity/client": "^8.0.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^17.4.2",
+    "mammoth": "^1.12.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
